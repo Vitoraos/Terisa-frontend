@@ -1,4 +1,5 @@
 import axios from 'axios'
+import type { User, ApiKey, NewApiKeyResponse, LedgerBalance, LedgerEntry, Provider, ProviderRoute, ProviderEarnings, Review } from './types'
 
 const api = axios.create({
   baseURL: `${process.env.NEXT_PUBLIC_API_URL}/v1`,
